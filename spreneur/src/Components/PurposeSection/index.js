@@ -12,7 +12,7 @@ const Purpose = () => {
                         Imagine having hundreds of lessons and activities for 5th-8th grade science at your fingertips.<br /><br />
                         The membership gives you access to all of the Kesler Science classroom materials plus hours of live and recorded professional development with Steve Spangler.
                     </PurposeP>
-                        <VideoContent autoplay loop src={Video} type='video/mp4' />
+                    <VideoContent autoPlay loop muted src={Video} type='video/mp4' />
                 </PurposeContainer>
             </PurposeSection>
         </>

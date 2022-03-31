@@ -25,7 +25,8 @@ const Navbar = ({ toggle }) => {
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', changeNav)
+        window.addEventListener('scroll', changeNav);
+
     }, []);
 
     const toggleHome = () => {
@@ -41,13 +42,13 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='/'>BOOK</NavLinks>
+                            <NavLinks to='/book'>BOOK</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/'>Blog</NavLinks>
+                            <NavLinks to='/blog'>Blog</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/'>ACADEMY</NavLinks>
+                            <NavLinks to='/academy'>ACADEMY</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavLogo onClicked={toggleHome} to='/'>SPRENEUR</NavLogo>

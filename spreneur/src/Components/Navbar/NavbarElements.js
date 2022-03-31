@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkR } from 'react-router-dom';
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+    background: ${({ scrollNav }) => (scrollNav ? '#EF8A56' : '#000')};
     height: 80px;
     margin-top: -80px;
     color: #fff;
@@ -30,6 +30,11 @@ export const NavLogo = styled(LinkR)`
     color: #fff;
     font-weight: 700;
     cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #067eb7;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -58,7 +63,7 @@ export const MobileIconSearch = styled.div`
     transition: color 0.3s ease;
 
     &:hover {
-        color: #EF8A56;
+        color: #067eb7;
     }
 `;
 
@@ -83,6 +88,6 @@ export const NavLinks = styled(LinkR)`
     transition: color 0.3s ease;
 
     &:hover {
-        color: #EF8A56;
+        color: #067eb7;
     }
 `;
