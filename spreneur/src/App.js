@@ -7,6 +7,7 @@ import Blog from './Pages/blog';
 import Navbar from './Components/Navbar';
 import Book from './Pages/book';
 import Academy from './Pages/academy';
+import Event from './Pages/events';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/blog" element={<Blog />} exact />
         <Route path="/book" element={<Book />} exact />
         <Route path="/academy" element={<Academy />} exact />
+        <Route path="/events" element={<Event />} exact />
       </Routes>
       <Footer />
     </Router>

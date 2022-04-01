@@ -57,7 +57,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='/'>ABOUT</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/'>EVENTS</NavLinks>
+                            <NavLinks to='/events'>EVENTS</NavLinks>
                         </NavItem>
                         <MobileIconSearch>
                             <BsSearch />
