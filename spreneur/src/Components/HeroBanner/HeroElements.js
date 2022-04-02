@@ -61,6 +61,10 @@ export const HeroH1 = styled.h1`
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 50px;
+    }
 `;
 
 export const HeroP = styled.p`
@@ -68,6 +72,10 @@ export const HeroP = styled.p`
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
     max-width: 800px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 15px;
+    }
 `;
 
 export const HeroBtnWrapper = styled.div`

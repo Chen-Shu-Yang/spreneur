@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const TestimonialContainer = styled.div`
-    padding: 60px 0;
+    padding: 60px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 600px) {
+        padding: 60px 40px;
+    }
 `;
 
 export const TestimonialH1 = styled.h1`
@@ -19,6 +23,10 @@ export const TestimonialContent = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 
 export const TestimonialBox = styled.div`

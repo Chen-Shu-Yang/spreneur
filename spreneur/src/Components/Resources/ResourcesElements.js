@@ -6,6 +6,11 @@ export const ResourcesContainer = styled.div`
     align-items: center;
     text-align: center;
     margin-bottom: 60px;
+    padding: 0 80px;
+
+    @media screen and (max-width: 500px) {
+        padding: 0 40px;
+    }
 `;
 
 export const ResourcesContent = styled.div`
@@ -16,6 +21,10 @@ export const ResourcesCat = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 
 export const ResourcesBox = styled.div`

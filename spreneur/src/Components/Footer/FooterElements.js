@@ -27,8 +27,17 @@ export const SocialIcon = styled.div`
     font-size: 35px;
     padding: 12px;
     border-radius: 50%;
+
+    @media screen and (max-width: 450px) {
+        font-size: 25px;
+        justify-content: space-around;
+    }
 `;
 
 export const Copyright = styled.p`
     color: #fff;
+
+    @media screen and (max-width: 450px) {
+        font-size: 12px;
+    }
 `;

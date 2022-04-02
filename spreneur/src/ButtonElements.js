@@ -14,4 +14,8 @@ export const Button = styled(LinkR)`
         background: none;
         color: #EF8A56;
     }
+
+    @media screen and (max-width: 500px) {
+        font-size: 17px;
+    }
 `;

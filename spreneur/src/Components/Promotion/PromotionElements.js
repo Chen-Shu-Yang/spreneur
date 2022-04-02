@@ -54,14 +54,41 @@ export const PromotionContent = styled.div`
     margin: 0 10rem;
     text-align: center;
     max-width: 970px;
+
+    @media screen and (max-width: 960px) {
+        padding: 50px 0;
+        margin: 0 8rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        margin: 0 4rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        margin: 0 1rem;
+    }
 `;
 
 export const PromotionH1 = styled.h1`
     padding-bottom: 30px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
 `;
 
 export const PromotionP = styled.p`
     padding: 0 80px 30px 80px;
+
+    @media screen and (max-width: 600px) {
+        padding: 0 40px 30px 40px;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
+        padding: 0 30px 10px 30px;
+    }
 `;
 
 export const PromoBtnWrapper = styled.div`
