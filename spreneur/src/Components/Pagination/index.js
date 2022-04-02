@@ -8,13 +8,13 @@ const Pagination = () => {
         align-items: center;
         justify-content: center;
         margin-bottom: -80px;
-`;
+    `;
 
     const Pages = styled.ul`
         display: flex;
         align-items: center;
         justify-content: space-around;
-`;
+    `;
 
     const PageNumber = styled(LinkR)`
         margin: 10px;
@@ -27,8 +27,13 @@ const Pagination = () => {
         &:hover {
             background: #000;
             color: #fff;
-        } 
-`;
+        }
+
+        @media screen and (max-width: 450px) {
+            margin: 5px;
+            padding: 5px 12px;
+        }
+    `;
     return (
         <>
             <PaginationContainer>
