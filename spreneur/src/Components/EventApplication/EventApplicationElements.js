@@ -16,6 +16,10 @@ export const EventApplicationContent = styled.div`
 export const EventApplicationP = styled.p`
     text-align: center;
     margin-bottom: 30px;
+
+    @media screen and (max-width: 560px) {
+        padding: 0 50px;
+    }
 `;
 
 export const Form = styled.form`

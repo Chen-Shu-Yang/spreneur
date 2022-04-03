@@ -21,6 +21,11 @@ const CourseCards = ({ Img, alt, recentPostH1, hostName, categories }) => {
         margin: 15px 15px;
         display: flex;
         flex-direction: column;
+        transition: all 0.3s ease-in;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     `;
 
     const CourseCardH1 = styled.h3`

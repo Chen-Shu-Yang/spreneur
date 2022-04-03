@@ -10,6 +10,18 @@ const Speakers = () => {
 
     const SpeakersContent = styled.div`
         max-width: 1100px;
+
+        @media screen and (max-width: 1000px) {
+            padding: 0 80px;
+        }
+
+        @media screen and (max-width: 659px) {
+            padding: 0 30px;
+        }
+
+        @media screen and (max-width: 560px) {
+            padding: 0;
+        }
     `;
 
     const SpeakersListing = styled.div`

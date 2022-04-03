@@ -8,6 +8,22 @@ const Logo = ({ Img, alt }) => {
         height: 107px;
         margin: 0 10px;
         object-fit: contain;
+        filter: grayscale(1);
+        transition: all 0.3s ease;
+
+        &:hover {
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+
+        @media screen and (max-width: 960px) {
+            width: 120px;
+            height: 87px;
+        }
+
+        @media screen and (max-width: 840px) {
+            margin-top: 30px;
+        }
     `;
 
     return (

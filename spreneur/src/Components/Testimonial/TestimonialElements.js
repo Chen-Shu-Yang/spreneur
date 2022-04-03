@@ -32,6 +32,11 @@ export const TestimonialContent = styled.div`
 export const TestimonialBox = styled.div`
     border: 2px solid #000;
     padding: 30px 30px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
 `;
 
 export const MobileIcon = styled.div`

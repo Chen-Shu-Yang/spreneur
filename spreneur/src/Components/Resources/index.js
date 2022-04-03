@@ -12,19 +12,19 @@ const Resources = () => {
             <ResourcesContent>
             <ResourcesH1>Resources</ResourcesH1>
             <ResourcesCat>
-                <ResourcesBox>
+                <ResourcesBox to='/book'>
                     <ResourcesImg src={img1}></ResourcesImg>
                     <ResourcesH2>Books</ResourcesH2>
                 </ResourcesBox>
-                <ResourcesBox>
+                <ResourcesBox to='/events'>
                     <ResourcesImg src={img2}></ResourcesImg>
-                    <ResourcesH2>Conference</ResourcesH2>
+                    <ResourcesH2>Events</ResourcesH2>
                 </ResourcesBox>
-                <ResourcesBox>
+                <ResourcesBox to='/academy'>
                     <ResourcesImg src={img3}></ResourcesImg>
-                    <ResourcesH2>Podcast</ResourcesH2>
+                    <ResourcesH2>Academy</ResourcesH2>
                 </ResourcesBox>
-                <ResourcesBox>
+                <ResourcesBox to='/blog'>
                     <ResourcesImg src={img4}></ResourcesImg>
                     <ResourcesH2>Blog</ResourcesH2>
                 </ResourcesBox>

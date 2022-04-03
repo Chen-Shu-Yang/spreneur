@@ -9,6 +9,11 @@ const ListingCards = ({ Img, alt, recentPostH1 }) => {
         margin-bottom: 30px;
         background: #EF8A56;
         box-shadow: 0 0 15px 0 rgba(0,0,0,0.4);
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
     `;
 
     const ListingCardImg = styled.img`

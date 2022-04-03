@@ -28,7 +28,7 @@ const EventStats = () => {
                             <FaMoneyBillWaveAlt />
                         </StatsIcon>
                         <StatsH1>14</StatsH1>
-                        <StatsP>Millionaire Speakers</StatsP>
+                        <StatsP>Millionaire <br />Speakers</StatsP>
                     </Stats>
                     <Stats>
                         <StatsIcon>

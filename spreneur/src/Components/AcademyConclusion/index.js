@@ -1,7 +1,6 @@
 import React from 'react';
-import { AcademyConclusionSection, AcademyConclusionContainer, AcademyConclusionContent, AcademyConclusionH1, AcademyConclusionP, AcademyConclusionImg } from './AcademyConclusionElements';
+import { AcademyConclusionSection, AcademyConclusionContainer, AcademyConclusionContent, AcademyConclusionH1, AcademyConclusionP, AcademyConclusionImg, Button } from './AcademyConclusionElements';
 import Img from '../../Img/undraw_Professor.png';
-import { Button } from '../../ButtonElements';
 
 const AcademyConclusion = () => {
     return (

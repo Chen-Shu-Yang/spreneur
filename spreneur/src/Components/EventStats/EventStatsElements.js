@@ -15,6 +15,15 @@ export const EventStatsContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 820px) {
+        margin-top: 0;
+    }
+
+    @media screen and (max-width: 395px) {
+        display: block;
+    }
 `;
 
 export const Stats = styled.div`
@@ -23,11 +32,21 @@ export const Stats = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
+    cursor: default;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 `;
 
 export const StatsIcon = styled.div`
     font-size: 40px;
     margin-bottom: -10px;
+
+    @media screen and (max-width: 820px) {
+        margin-top: 50px;
+    }
 `;
 
 export const StatsH1 = styled.h1``;

@@ -9,15 +9,25 @@ const Partners = () => {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        flex-wrap: wrap;
     `;
 
     const PartnerH1 = styled.h1`
         font-family: 'Ubuntu', sans-serif;
         font-weight: 700;
         margin-bottom: 35px;
+
+        @media screen and (max-width: 840px) {
+            margin-bottom: 0;
+        }
     `;
 
-    const PartnersImgs = styled.ul``;
+    const PartnersImgs = styled.ul`
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    `;
     return (
         <>
             <PartnersContainer>

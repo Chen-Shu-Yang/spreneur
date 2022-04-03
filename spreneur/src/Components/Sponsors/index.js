@@ -22,9 +22,18 @@ const Sponsors = () => {
         font-family: 'Ubuntu', sans-serif;
         font-weight: 700;
         margin-bottom: 35px;
+
+        @media screen and (max-width: 840px) {
+            margin-bottom: 0;
+        }
     `;
 
-    const SponsorsImgs = styled.ul``;
+    const SponsorsImgs = styled.ul`
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    `;
     return (
         <>
         <SponsorSection>

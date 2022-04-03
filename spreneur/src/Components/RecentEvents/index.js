@@ -10,6 +10,15 @@ const RecentEvents = () => {
 
     const RecentEventContent = styled.div`
         max-width: 1300px;
+        padding: 0 80px;
+
+        @media screen and (max-width: 659px) {
+            padding: 0 30px;
+        }
+
+        @media screen and (max-width: 560px) {
+            padding: 0;
+        }
     `;
 
     const RecentEventsH1 = styled.h1`

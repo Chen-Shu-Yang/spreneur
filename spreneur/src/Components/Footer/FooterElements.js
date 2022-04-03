@@ -27,6 +27,13 @@ export const SocialIcon = styled.div`
     font-size: 35px;
     padding: 12px;
     border-radius: 50%;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: #EF8A56;
+        color: #fff;
+        transform: translateY(-5px);
+    }
 
     @media screen and (max-width: 450px) {
         font-size: 25px;
